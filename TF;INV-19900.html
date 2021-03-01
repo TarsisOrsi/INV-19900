@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles.css">
+		<script type="text/javascript" src="/JsAppRunner/Js/rasv2.js"></script>
+		<script type="text/javascript" src="/JsAppRunner/DAQ.js"></script>
+		<script type="text/javascript" src="../_Scripts/Teste.js"></script>
+		<script type="text/javascript" src="../_Scripts/Rastreamento.js"></script>
+		<script type="text/javascript" src="../_Scripts/UI.js"></script>
+		<script type="text/javascript" src="../_Scripts/Temperatura.js"></script>		
+		<script type="text/javascript" src="Main.js"></script>
+	</head>
+	
+	<style>
+		body {
+			font-weight: 400;
+			line-height: 1.5;
+			padding:10px;
+			color: #FFFFFF;
+			text-align: left;
+			background-image: url('Imagens/bg.png');
+			background-repeat: repeat;
+			background-color: #212629;
+		}
+		.index-logo-wrapper {
+			height: 40px;
+			position: relative;
+			top: 30px;
+			background-color: #ae0f0a;
+			padding:80px;
+		}
+
+		.myProgress {
+		margin-top: 50px;
+		width: 100%;
+		background-color: grey;
+		position:relative;
+		}
+		.myBar {
+		width: 0%;
+		height: 30px;
+		text-align: center;
+		background-color: green;
+		}
+	</style>
+	<body body onload="main = new Main();" class="index-banner">
+	<div class="page index">
+		<div class="">        
+			<header class="index-header">
+				<div class="row text-center index-logo-wrapper">
+					<div class="col-md-20
+					">
+						<img src="imagens\logo_b.png" alt="Logo" class="index-logo">
+					</div>                            
+				</div>
+			</header>
+		
+			<div class="index-footer container-fluid text-center">
+				<div class="myProgress" id="myProgress">
+					<div class="myBar" id="myBar"></div>
+				</div> 
+				<div class="row">
+					<div class="footer-info col-md-20">
+						<h1 class="H1text" id="H1text" style="margin-top: 20px;">Relatório de teste.</h1>
+						<ul id="lista"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		  
+	</body>
+</html>
