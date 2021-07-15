@@ -365,30 +365,6 @@ Main.prototype.ProductConfig = function (nextEtp) {
         */
     //#endregion
 
-    if (document.cookie.includes("ProductCode=15681")) {  // 1000003407483      INV-KC1-05-N1-H-R20
-        CodModelo = "INV-KC1-05-N1-H-R20"
-
-        MapTest.set("BASE","BS-21")
-        MapTest.set("CHICOTE","CNV-096")
-        MapTest.set("FIXTURE","FX-04")
-        MapTest.set("TECLAS","TC4.png")
-        MapTest.set("TERMOPAR",["NTC"])
-        MapTest.set("RELES_NTC",[0]) 
-        MapTest.set("PS","199V3.png")
-        MapTest.set("SENHA_NUM","910")
-        MapTest.set("SENHA_IMG","senha.png")
-        MapTest.set("AUTOTESTE","autoTeste1.png")
-        MapTest.set("LEDS","ledsConfig1.png")
-        MapTest.set("ALIMENTACAO",220)
-        MapTest.set("ALIM_SAIDAS_RELE",[5,2])
-        MapTest.set("SAIDAS_RELE",[1])
-        MapTest.set("SAIDAS_SSR","NA")
-        MapTest.set("E1",[1,5])
-        MapTest.set("BEEP_INV","NA")
-
-        SetEstado(nextEtp)
-    }
-    else
     if (document.cookie.includes("ProductCode=15732")) {  // 1000003407483      INV-KC1-05-N2-H-R20
         CodModelo = "INV-KC1-05-N2-H-R20"
 
@@ -458,106 +434,6 @@ Main.prototype.ProductConfig = function (nextEtp) {
         MapTest.set("E1",[1,3])
         MapTest.set("BEEP_INV","NA")
 
-        SetEstado(nextEtp)
-    }
-    else
-    if (document.cookie.includes("ProductCode=15809")) {  // 1000003478867      INV-YC1-01-J-H-R20-R
-        CodModelo = "INV-YC1-01-J-H-R20-R"
-
-        MapTest.set("BASE","BS-21")
-        MapTest.set("CHICOTE","CNV-096")
-        MapTest.set("FIXTURE","FX-04")
-        MapTest.set("TECLAS","TC4.png")
-        MapTest.set("SENHA_NUM","123")
-        MapTest.set("SENHA_IMG","senha2.png")
-        MapTest.set("TERMOPAR",["J"])
-        MapTest.set("RELES_TERMOPAR",[5])
-        MapTest.set("PS","199V12.png")
-        MapTest.set("AUTOTESTE","autoTeste1.png")
-        MapTest.set("LEDS","ledsConfig1.png")
-        MapTest.set("RELES_INIT",[5]) 
-        MapTest.set("ALIMENTACAO",220)
-        MapTest.set("ALIM_SAIDAS_RELE",[5,2])
-        MapTest.set("SAIDAS_RELE",[1])
-        MapTest.set("SAIDAS_SSR","NA")
-        MapTest.set("E1",[1,3])
-        MapTest.set("BEEP_INV","NA")
-
-        SetEstado(nextEtp)
-    }
-    else
-    if (document.cookie.includes("ProductCode=16600")) {  // 1000004558457      INV-YC1-01-J-H-S
-        CodModelo = "INV-YC1-01-J-H-S"
-
-        MapTest.set("BASE","BS-21")
-        MapTest.set("CHICOTE","CNV-096")
-        MapTest.set("FIXTURE","FX-04")
-        MapTest.set("TECLAS","TC4.png")
-        MapTest.set("SENHA_NUM","123")
-        MapTest.set("SENHA_IMG","senha2.png")
-        MapTest.set("TERMOPAR",["J"])
-        MapTest.set("RELES_TERMOPAR",[5])
-        MapTest.set("PS","199V12.png")
-        MapTest.set("AUTOTESTE","autoTeste1.png")
-        MapTest.set("LEDS","ledsConfig1.png")
-        MapTest.set("RELES_INIT",[5]) 
-        MapTest.set("ALIMENTACAO",220)
-        MapTest.set("ALIM_SAIDAS_SSR",[2])
-        MapTest.set("SAIDAS_RELE","NA")
-        MapTest.set("SAIDAS_SSR",[5])
-        MapTest.set("E1",[1])
-        MapTest.set("BEEP_INV","NA")
-
-        SetEstado(nextEtp)
-    }
-    else
-    if (document.cookie.includes("ProductCode=11954")) {  // 1000003935714      INV-KC1-01-N1-H-R20
-        CodModelo = "INV-KC1-01-N1-H-R20"
-
-        MapTest.set("BASE","BS-21")
-        MapTest.set("CHICOTE","CNV-096")
-        MapTest.set("FIXTURE","FX-04")
-        MapTest.set("TECLAS","teclas.gif")
-        MapTest.set("SENHA_NUM","123")
-        MapTest.set("SENHA_IMG","senha2.png")
-        MapTest.set("TERMOPAR",["NTC"])
-        MapTest.set("RELES_NTC",[7])
-        MapTest.set("PS","199V12.png")  //?????????
-        MapTest.set("AUTOTESTE","autoTeste2.png")
-        MapTest.set("LEDS","ledsConfig1.png")
-        MapTest.set("RELES_INIT",[5]) 
-        MapTest.set("ALIMENTACAO",220)
-        MapTest.set("ALIM_SAIDAS_RELE",[5,2])
-        MapTest.set("SAIDAS_RELE",[1])
-        MapTest.set("SAIDAS_SSR","NA")
-        MapTest.set("E1",[1,3])
-        MapTest.set("BEEP_INV","NA")
-        pvi.daq.ntc1("40GRAUS")
-        SetEstado(nextEtp)
-    }
-    else
-    if (document.cookie.includes("ProductCode=14778")) {  // 1000003935714      INV-KC1-01-N1-H-R20
-        CodModelo = " INV-KC1-01-N2-H-R20"
-
-        MapTest.set("BASE","BS-21")
-        MapTest.set("CHICOTE","CNV-096")
-        MapTest.set("FIXTURE","FX-04")
-        MapTest.set("TECLAS","teclas.gif")
-        MapTest.set("SENHA_NUM","123")
-        MapTest.set("SENHA_IMG","senha2.png")
-        MapTest.set("TERMOPAR",["NTC"])
-        MapTest.set("RELES_NTC",[7])
-        MapTest.set("PS","199V12.png")
-        MapTest.set("AUTOTESTE","autoTeste2.png")
-        MapTest.set("LEDS","ledsConfig1.png")
-        MapTest.set("RELES_INIT",[5]) 
-        MapTest.set("ALIMENTACAO",220)
-        MapTest.set("ALIM_SAIDAS_RELE",[5,2])
-        MapTest.set("SAIDAS_RELE",[1])
-        MapTest.set("SAIDAS_SSR","NA")
-        MapTest.set("E1",[1,3])
-        MapTest.set("BEEP_INV","NA")
-        pvi.daq.ntc1("40GRAUS")
         SetEstado(nextEtp)
     }
     else
